@@ -6,7 +6,7 @@ This repository contains the preliminary work and experiments for my master's th
 This project explores various deep learning approaches for medical image processing, including autoencoders, adversarial autoencoders (AAE), and conditional GANs, specifically working with the SynthRad2023 dataset (https://zenodo.org/records/7260705).
 
 ## Table of Contents
-- [Experiment 1](#Processing SynthRad 2023 Images)
+- [Processing SynthRad 2023 Images](#Experiment 1)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
