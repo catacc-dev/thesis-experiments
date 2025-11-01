@@ -3,7 +3,12 @@
 This repository contains the preliminary work and experiments for my master's thesis, focusing on medical image processing using the MONAI (Medical Open Network for AI) framework.
 
 ## Project Overview
-This project explores various deep learning approaches for medical image processing, including autoencoders, adversarial autoencoders (AAE), and conditional GANs, specifically working with the SynthRad 2023 dataset (https://zenodo.org/records/7260705).
+This project explores various deep learning approaches for medical image processing, including autoencoders, adversarial autoencoders (AAE), and conditional GANs, specifically working with the SynthRad2023 dataset (https://zenodo.org/records/7260705).
+
+## Table of Contents
+- [Experiment 1](#Processing SynthRad 2023 Images)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
 ## Jupyter Notebooks
 
