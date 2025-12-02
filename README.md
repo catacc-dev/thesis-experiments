@@ -50,8 +50,7 @@ This project explores various deep learning approaches for medical image process
 
 ### Installation
 1. Clone the repo
-```bash
-   git clone [https://github.com/catacc-dev/your-repo-name.git](https://github.com/catacc-dev/thesis-experiments.git)
+   `git clone [https://github.com/catacc-dev/your-repo-name.git](https://github.com/catacc-dev/thesis-experiments.git)`
 2. Create a virtual environment
     python3 -m venv venv
     source venv/bin/activate      # Linux or macOS
