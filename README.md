@@ -19,23 +19,23 @@ This project explores various deep learning approaches for medical image process
 
 ### Notebooks
 1. Processing SynthRad2023 Images
-- Data loading and preprocessing pipeline
-- MONAI-specific preprocessing steps:
-  - Channel-first conversion
-  - Image resampling
-  - MRI and CT normalisation (range: -1 to 1)
-- Visualisation of image slices for quality control
+   - Data loading and preprocessing pipeline
+   - MONAI-specific preprocessing steps:
+   - Channel-first conversion
+   - Image resampling
+   - MRI and CT normalisation (range: -1 to 1)
+   - Visualisation of image slices for quality control
 
 2. Autoencoder Implementation
-- Basic autoencoder architecture
-- Implementation using MONAI framework
-- Training and evaluation experiments
+   - Basic autoencoder architecture
+   - Implementation using MONAI framework
+   - Training and evaluation experiments
 
 3. Adversarial Autoencoder
-- Advanced implementation of Adversarial Autoencoders: a combination of autoencoder architecture with adversarial training
+   - Advanced implementation of Adversarial Autoencoders: a combination of autoencoder architecture with adversarial training
 
 4. Conditional GAN for Pix2Pix
-- Implementation of cGAN architecture: Pix2Pix approach for medical image translation ([see the architecture](https://arxiv.org/abs/1611.07004))
+   - Implementation of cGAN architecture: Pix2Pix approach for medical image translation ([see the architecture](https://arxiv.org/abs/1611.07004))
 
 ## Getting started
 
