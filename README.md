@@ -54,11 +54,11 @@ This project explores various deep learning approaches for medical image process
    `git clone https://github.com/catacc-dev/thesis-experiments.git`
 3. Create a virtual environment
    
-    `python3 -m venv venv
+    `python3 -m venv venv`
    
-    source venv/bin/activate      # Linux or macOS
+    `source venv/bin/activate      # Linux or macOS`
    
-    venv\Scripts\activate         # Windows`
+    `venv\Scripts\activate         # Windows`
 5. Install packages
    
    `pip install monai tqdm SimpleITK pathlib os torch torchvision numpy matplotlib nibabel`
