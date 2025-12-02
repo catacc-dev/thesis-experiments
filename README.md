@@ -50,13 +50,13 @@ This project explores various deep learning approaches for medical image process
 
 ### Installation
 1. Clone the repo
-   `git clone [https://github.com/catacc-dev/your-repo-name.git](https://github.com/catacc-dev/thesis-experiments.git)`
+   `git clone https://github.com/catacc-dev/thesis-experiments.git`
 2. Create a virtual environment
-    python3 -m venv venv
+    `python3 -m venv venv
     source venv/bin/activate      # Linux or macOS
-    venv\Scripts\activate         # Windows
+    venv\Scripts\activate         # Windows`
 3. Install packages
-   pip install monai tqdm SimpleITK pathlib os torch torchvision numpy matplotlib nibabel
+   `pip install monai tqdm SimpleITK pathlib os torch torchvision numpy matplotlib nibabel`
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
