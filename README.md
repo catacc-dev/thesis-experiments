@@ -55,7 +55,9 @@ This project explores various deep learning approaches for medical image process
 3. Create a virtual environment
    
     `python3 -m venv venv
+   
     source venv/bin/activate      # Linux or macOS
+   
     venv\Scripts\activate         # Windows`
 5. Install packages
    
