@@ -12,7 +12,6 @@ This repository contains the preliminary work and experiments for my master's th
     - [Adversarial Autoencoder experiment](#adversarial-autoencoder)
     - [cGAN experiment](#conditional-gan-for-pix2pix)
 2. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 3. [Contributing](#contributing)
 
@@ -51,15 +50,18 @@ This project explores various deep learning approaches for medical image process
 
 ### Installation
 1. Clone the repo
-```bash
-   git clone [https://github.com/catacc-dev/your-repo-name.git](https://github.com/catacc-dev/thesis-experiments.git)
-2. Create a virtual environment
-```bash
-    python3 -m venv venv
-    source venv/bin/activate      # Linux or macOS
-    venv\Scripts\activate         # Windows
-3. Install packages
-   pip install monai tqdm SimpleITK pathlib os torch torchvision numpy matplotlib jupyter
+   
+   `git clone https://github.com/catacc-dev/thesis-experiments.git`
+3. Create a virtual environment
+   
+    `python3 -m venv venv`
+   
+    `source venv/bin/activate      # Linux or macOS`
+   
+    `venv\Scripts\activate         # Windows`
+5. Install packages
+   
+   `pip install monai tqdm SimpleITK pathlib os torch torchvision numpy matplotlib nibabel`
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
