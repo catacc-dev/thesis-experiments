@@ -1,6 +1,6 @@
 ## Master's Thesis Experiments in Jupyter Notebooks
 
-### This repository contains the preliminary work and experiments for my master's thesis, focusing on medical image processing using the MONAI (Medical Open Network for AI) framework from NVIDIA.
+This repository contains the preliminary work and experiments for my master's thesis, focusing on medical image processing using the MONAI (Medical Open Network for AI) framework from NVIDIA.
 
 <details>
 <summary>Table of Contents</summary>
