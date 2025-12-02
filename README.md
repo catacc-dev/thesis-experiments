@@ -5,7 +5,6 @@
 <details>
 <summary>Table of Contents</summary>
 
-## Table of Contents
 1. [About the Project](#about-the-project)
     - [Built With](#built-with)
     - [Processing experiment](#processing-synthrad2023-images)
@@ -34,7 +33,7 @@ This project explores various deep learning approaches for medical image process
 - MONAI-specific preprocessing steps:
   - Channel-first conversion
   - Image resampling
-  - MRI and CT normalization (range: -1 to 1)
+  - MRI and CT normalisation (range: -1 to 1)
 - Visualisation of image slices for quality control
 
 ### Autoencoder Implementation
@@ -44,18 +43,28 @@ This project explores various deep learning approaches for medical image process
 
 ### Adversarial Autoencoder
 - Advanced implementation of Adversarial Autoencoders: a combination of autoencoder architecture with adversarial training
-- Experiments with latent space manipulation
 
 ### Conditional GAN for Pix2Pix
 - Implementation of cGAN architecture: Pix2Pix approach for medical image translation ([see the architecture](https://arxiv.org/abs/1611.07004))
 
 ## Getting started
 
+### Installation
+1. Clone the repo
+```bash
+   git clone [https://github.com/catacc-dev/your-repo-name.git](https://github.com/catacc-dev/thesis-experiments.git)
+2. Create a virtual environment
+```bash
+    python3 -m venv venv
+    source venv/bin/activate      # Linux or macOS
+    venv\Scripts\activate         # Windows
+3. Install packages
+   pip install monai tqdm SimpleITK pathlib os torch torchvision numpy matplotlib jupyter
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
